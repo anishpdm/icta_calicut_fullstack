@@ -35,45 +35,33 @@
                 <div class="row">
                     <div class="col-sm-6">
                             <div class="row">
-                                    <div class="col-sm-6" >Name</div>
-                                    <div class="col-sm-6"> <input type="text" class="form-control" id="getname" required />  </div>
+                                    <div class="col-sm-6" >Operand 1</div>
+                                    <div class="col-sm-6"> <input type="text" class="form-control" id="op1" />  </div>
                                 </div>
                                 <br>
                                 <div class="row">
-                                        <div class="col-sm-6" >Roll Number</div>
-                                        <div class="col-sm-6"> <input type="text" class="form-control" />  </div>
+                                        <div class="col-sm-6" >Operand 2</div>
+                                        <div class="col-sm-6"> <input type="text" class="form-control" id="op2"/>  </div>
                                     </div>
                                     <br>
-                                    <div class="row">
-                                            <div class="col-sm-6" >Admissipon Number</div>
-                                            <div class="col-sm-6"> <input type="text" class="form-control" />  </div>
-                                        </div>
-                                        <div class="row">
-                                                <div class="col-sm-6" >Age</div>
-                                                <div class="col-sm-6"> <input type="text" class="form-control" id="getage" />  </div>
-                                            </div>
-                                            <br>
+                                
 
                                             <div class="row">
-                                                <div class="col-sm-6" >District</div>
-                                                <select id="district">
-                                                        <option value="malappuram">Malappuram</option>
-                                                        <option value="kannur">Kannur</option>
-                                                    <option value="calicut">Kozhikode</option>
+                                                <div class="col-sm-6" >Operation</div>
+                                                <select id="operation">
+                                                        <option value="add">Addition</option>
+                                                        <option value="sub">Subtraction</option>
+                                                    <option value="mul">Multiplication</option>
                                                 </select><div class="col-sm-6"> 
                                                     
                                                 </div>
                                             </div>
-                                            <br>
-                                            <div class="row">
-                                                    <div class="col-sm-6" >Mobile Number</div>
-                                                    <div class="col-sm-6"> <input type="text" class="form-control" id="getmobile" pattern="[9876]{1}[0-9]{9}" />  </div>
-                                                </div>
-                                                <br>
+                                   
+
                                         <br>
                                         <div class="row">
                                                 <div class="col-sm-6" ></div>
-                                                <div class="col-sm-6"> <Button class="btn btn-info" onclick="Read();" >REGISTER</Button> </div>
+                                                <div class="col-sm-6"> <Button type="button" class="btn btn-info" onclick="Addition();" >Add</Button> </div>
                                             </div>
                     </div>
                 </div>
